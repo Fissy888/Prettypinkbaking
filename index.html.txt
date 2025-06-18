@@ -1,0 +1,718 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pink Therapy & Recipes</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Poppins:wght@500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header Section -->
+    <header class="header">
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#recipes">Recipes</a></li>
+                <li><a href="#therapy">Therapy Tips</a></li>
+                <li><a href="#about">About Us</a></li>
+            </ul>
+        </nav>
+        <h1>Welcome to Pink Therapy</h1>
+        <p>Your space for pink-inspired therapy tips and sweet recipes!</p>
+    </header>
+
+    <!-- Recipes Section -->
+    <section id="recipes" class="section recipes">
+        <h2>Delicious Pink-Themed Recipes</h2>
+        <div class="recipe-cards">
+            <div class="card">
+                <img src="https://via.placeholder.com/300x200/pink?text=Recipe+1" alt="Recipe 1">
+                <h3>Pink Lemonade</h3>
+                <p>A refreshing pink lemonade recipe to cool off!</p>
+                <a href="recipe1.html" class="btn">View Recipe</a>
+            </div>
+            <div class="card">
+                <img src="https://via.placeholder.com/300x200/pink?text=Recipe+2" alt="Recipe 2">
+                <h3>Strawberry Cupcakes</h3>
+                <p>Sweet and fluffy cupcakes topped with strawberry frosting.</p>
+                <a href="recipe2.html" class="btn">View Recipe</a>
+            </div>
+            <div class="card">
+                <img src="https://via.placeholder.com/300x200/pink?text=Recipe+3" alt="Recipe 3">
+                <h3>Pink Smoothie Bowl</h3>
+                <p>A healthy and vibrant smoothie bowl packed with nutrients.</p>
+                <a href="recipe3.html" class="btn">View Recipe</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Therapy Tips Section -->
+    <section id="therapy" class="section therapy">
+        <h2>Pink Therapy Tips</h2>
+        <p>Take a deep breath and explore some calming therapy practices for a peaceful mind.</p>
+        <ul>
+            <li>Practice deep breathing exercises.</li>
+            <li>Spend time with loved ones and pets.</li>
+            <li>Engage in creative activities like art or journaling.</li>
+            <li>Try aromatherapy with calming essential oils.</li>
+        </ul>
+    </section>
+
+    <!-- About Us Section -->
+    <section id="about" class="section about">
+        <h2>About Us</h2>
+        <p>At Pink Therapy, we believe in creating a peaceful, nurturing space for self-care and relaxation. Our website offers tips for mental well-being, as well as delicious, fun recipes to add a little sweetness to your life.</p>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2025 Pink Therapy & Recipes | Designed with love</p>
+    </footer>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pink Lemonade Recipe</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="header">
+        <h1>Pink Lemonade Recipe</h1>
+        <p>Refreshing and sweet, perfect for hot days!</p>
+    </header>
+
+    <section class="section recipe-detail">
+        <h2>Ingredients:</h2>
+        <ul>
+            <li>1 cup fresh lemon juice</li>
+            <li>2 cups water</li>
+            <li>1/2 cup sugar</li>
+            <li>Pink food coloring (optional)</li>
+        </ul>
+
+        <h2>Instructions:</h2>
+        <p>Mix all the ingredients in a pitcher and stir until the sugar dissolves. Serve chilled over ice.</p>
+
+        <h3>Rate This Recipe:</h3>
+        <form>
+            <label for="rating">Rating (1 to 5):</label>
+            <input type="number" id="rating" name="rating" min="1" max="5" required>
+            <button type="submit">Submit Rating</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Pink Therapy | Designed with love</p>
+    </footer>
+</body>
+</html><!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Strawberry Cupcakes Recipe</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="header">
+        <h1>Strawberry Cupcakes Recipe</h1>
+        <p>Sweet and soft cupcakes with a strawberry twist!</p>
+    </header>
+
+    <section class="section recipe-detail">
+        <h2>Ingredients:</h2>
+        <ul>
+            <li>1 cup flour</li>
+            <li>1/2 cup sugar</li>
+            <li>1/2 cup milk</li>
+            <li>1/4 cup butter</li>
+            <li>1 cup mashed strawberries</li>
+            <li>1 tsp vanilla extract</li>
+        </ul>
+
+        <h2>Instructions:</h2>
+        <p>Preheat the oven to 350°F (175°C). Mix all ingredients together, pour into cupcake liners, and bake for 20 minutes.</p>
+
+        <h3>Rate This Recipe:</h3>
+        <form>
+            <label for="rating">Rating (1 to 5):</label>
+            <input type="number" id="rating" name="rating" min="1" max="5" required>
+            <button type="submit">Submit Rating</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Pink Therapy | Designed with love</p>
+    </footer>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pink Smoothie Bowl Recipe</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="header">
+        <h1>Pink Smoothie Bowl Recipe</h1>
+        <p>Healthy, refreshing, and packed with nutrients!</p>
+    </header>
+
+    <section class="section recipe-detail">
+        <h2>Ingredients:</h2>
+        <ul>
+            <li>1 cup frozen strawberries</li>
+            <li>1 banana</li>
+            <li>1/2 cup almond milk</li>
+            <li>1 tbsp honey</li>
+            <li>Granola and fresh fruit for topping</li>
+        </ul>
+
+        <h2>Instructions:</h2>
+        <p>Blend the strawberries, banana, almond milk, and honey until smooth. Pour into a bowl and top with granola and fresh fruit.</p>
+
+        <h3>Rate This Recipe:</h3>
+        <form>
+            <label for="rating">Rating (1 to 5):</label>
+            <input type="number" id="rating" name="rating" min="1" max="5" required>
+            <button type="submit">Submit Rating</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Pink Therapy | Designed with love</p>
+    </footer>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Raspberry Cheesecake Recipe</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="header">
+        <h1>Raspberry Cheesecake Recipe</h1>
+        <p>A creamy and sweet raspberry cheesecake with a crunchy crust.</p>
+    </header>
+
+    <section class="section recipe-detail">
+        <h2>Ingredients:</h2>
+        <ul>
+            <li>1 cup graham cracker crumbs</li>
+            <li>1/4 cup melted butter</li>
+            <li>3 cups cream cheese</li>
+            <li>1 cup sugar</li>
+            <li>1 cup fresh raspberries</li>
+        </ul>
+
+        <h2>Instructions:</h2>
+        <p>Preheat the oven to 350°F (175°C). Press graham cracker crumbs and melted butter into the bottom of a pan, then bake for 10 minutes. Blend the cream cheese, sugar, and raspberries until smooth, pour over the crust, and bake for 50 minutes.</p>
+
+        <h3>Rate This Recipe:</h3>
+        <form>
+            <label for="rating">Rating (1 to 5):</label>
+            <input type="number" id="rating" name="rating" min="1" max="5" required>
+            <button type="submit">Submit Rating</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Pink Therapy | Designed with love</p>
+    </footer>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pink Velvet Cake Recipe</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="header">
+        <h1>Pink Velvet Cake Recipe</h1>
+        <p>A rich and moist pink velvet cake with cream cheese frosting.</p>
+    </header>
+
+    <section class="section recipe-detail">
+        <h2>Ingredients:</h2>
+        <ul>
+            <li>2 cups flour</li>
+            <li>1 1/2 cups sugar</li>
+            <li>1 tsp vanilla extract</li>
+            <li>1 cup buttermilk</li>
+            <li>Red food coloring</li>
+            <li>1/2 cup cream cheese frosting</li>
+        </ul>
+
+        <h2>Instructions:</h2>
+        <p>Preheat the oven to 350°F (175°C). Mix the dry ingredients, then add wet ingredients and red food coloring. Pour into cake pans and bake for 30 minutes. Frost with cream cheese frosting.</p>
+
+        <h3>Rate This Recipe:</h3>
+        <form>
+            <label for="rating">Rating (1 to 5):</label>
+            <input type="number" id="rating" name="rating" min="1" max="5" required>
+            <button type="submit">Submit Rating</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Pink Therapy | Designed with love</p>
+    </footer>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pink Pancakes Recipe</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="header">
+        <h1>Pink Pancakes Recipe</h1>
+        <p>Fluffy pancakes with a pink twist, perfect for a fun breakfast!</p>
+    </header>
+
+    <section class="section recipe-detail">
+        <h2>Ingredients:</h2>
+        <ul>
+            <li>1 1/2 cups flour</li>
+            <li>1 cup milk</li>
+            <li>1 egg</li>
+            <li>2 tbsp sugar</li>
+            <li>Red food coloring</li>
+        </ul>
+
+        <h2>Instructions:</h2>
+        <p>Mix all ingredients together until smooth. Heat a pan, then pour the batter to form pancakes. Cook for 2-3 minutes on each side, until golden brown.</p>
+
+        <h3>Rate This Recipe:</h3>
+        <form>
+            <label for="rating">Rating (1 to 5):</label>
+            <input type="number" id="rating" name="rating" min="1" max="5" required>
+            <button type="submit">Submit Rating</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Pink Therapy | Designed with love</p>
+    </footer>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pink Frosted Donuts Recipe</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="header">
+        <h1>Pink Frosted Donuts Recipe</h1>
+        <p>Sweet donuts with a pink frosting glaze for a delightful treat.</p>
+    </header>
+
+    <section class="section recipe-detail">
+        <h2>Ingredients:</h2>
+        <ul>
+            <li>2 cups flour</li>
+            <li>1 cup sugar</li>
+            <li>1 tsp vanilla extract</li>
+            <li>1/2 cup milk</li>
+            <li>Red food coloring</li>
+        </ul>
+
+        <h2>Instructions:</h2>
+        <p>Preheat the oven to 375°F (190°C). Mix dry ingredients and add wet ingredients to form dough. Roll dough into donut shapes and bake for 10 minutes. Glaze with pink frosting.</p>
+
+        <h3>Rate This Recipe:</h3>
+        <form>
+            <label for="rating">Rating (1 to 5):</label>
+            <input type="number" id="rating" name="rating" min="1" max="5" required>
+            <button type="submit">Submit Rating</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Pink Therapy | Designed with love</p>
+    </footer>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pink Berry Sorbet Recipe</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="header">
+        <h1>Pink Berry Sorbet Recipe</h1>
+        <p>A refreshing, icy treat made from fresh berries!</p>
+    </header>
+
+    <section class="section recipe-detail">
+        <h2>Ingredients:</h2>
+        <ul>
+            <li>2 cups mixed berries</li>
+            <li>1/2 cup sugar</li>
+            <li>1 cup water</li>
+        </ul>
+
+        <h2>Instructions:</h2>
+        <p>Blend the berries, sugar, and water together. Freeze the mixture in a container for several hours. Scrape with a fork to create a fluffy, icy texture.</p>
+
+        <h3>Rate This Recipe:</h3>
+        <form>
+            <label for="rating">Rating (1 to 5):</label>
+            <input type="number" id="rating" name="rating" min="1" max="5" required>
+            <button type="submit">Submit Rating</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Pink Therapy | Designed with love</p>
+    </footer>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pink Berry Sorbet Recipe</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="header">
+        <h1>Pink Berry Sorbet Recipe</h1>
+        <p>A refreshing, icy treat made from fresh berries!</p>
+    </header>
+
+    <section class="section recipe-detail">
+        <h2>Ingredients:</h2>
+        <ul>
+            <li>2 cups mixed berries</li>
+            <li>1/2 cup sugar</li>
+            <li>1 cup water</li>
+        </ul>
+
+        <h2>Instructions:</h2>
+        <p>Blend the berries, sugar, and water together. Freeze the mixture in a container for several hours. Scrape with a fork to create a fluffy, icy texture.</p>
+
+        <h3>Rate This Recipe:</h3>
+        <form>
+            <label for="rating">Rating (1 to 5):</label>
+            <input type="number" id="rating" name="rating" min="1" max="5" required>
+            <button type="submit">Submit Rating</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Pink Therapy | Designed with love</p>
+    </footer>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Strawberry Milkshake Recipe</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="header">
+        <h1>Strawberry Milkshake Recipe</h1>
+        <p>A creamy and rich strawberry milkshake, perfect for any occasion!</p>
+    </header>
+
+    <section class="section recipe-detail">
+        <h2>Ingredients:</h2>
+        <ul>
+            <li>1 cup strawberries</li>
+            <li>1 cup milk</li>
+            <li>2 scoops vanilla ice cream</li>
+        </ul>
+
+        <h2>Instructions:</h2>
+        <p>Blend all the ingredients together until smooth. Serve chilled in a glass with a straw.</p>
+
+        <h3>Rate This Recipe:</h3>
+        <form>
+            <label for="rating">Rating (1 to 5):</label>
+            <input type="number" id="rating" name="rating" min="1" max="5" required>
+            <button type="submit">Submit Rating</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Pink Therapy | Designed with love</p>
+    </footer>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pink Mousse Recipe</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="header">
+        <h1>Pink Mousse Recipe</h1>
+        <p>A light and fluffy mousse with a delicate pink hue.</p>
+    </header>
+
+    <section class="section recipe-detail">
+        <h2>Ingredients:</h2>
+        <ul>
+            <li>1 cup heavy cream</li>
+            <li>1/2 cup sugar</li>
+            <li>1/4 cup strawberry puree</li>
+            <li>1/2 tsp vanilla extract</li>
+        </ul>
+
+        <h2>Instructions:</h2>
+        <p>Whip the heavy cream and sugar until soft peaks form. Fold in the strawberry puree and vanilla extract. Chill in the refrigerator for 2 hours before serving.</p>
+
+        <h3>Rate This Recipe:</h3>
+        <form>
+            <label for="rating">Rating (1 to 5):</label>
+            <input type="number" id="rating" name="rating" min="1" max="5" required>
+            <button type="submit">Submit Rating</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Pink Therapy | Designed with love</p>
+    </footer>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pink Macarons Recipe</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="header">
+        <h1>Pink Macarons Recipe</h1>
+        <p>Delicate and colorful French macarons with a pink twist!</p>
+    </header>
+
+    <section class="section recipe-detail">
+        <h2>Ingredients:</h2>
+        <ul>
+            <li>1 1/2 cups powdered sugar</li>
+            <li>1 cup almond flour</li>
+            <li>3 egg whites</li>
+            <li>1/2 cup granulated sugar</li>
+            <li>Red food coloring</li>
+        </ul>
+
+        <h2>Instructions:</h2>
+        <p>Preheat oven to 300°F (150°C). Beat egg whites and granulated sugar until stiff peaks form. Fold in powdered sugar, almond flour, and food coloring. Pipe the mixture onto baking sheets and bake for 15-20 minutes.</p>
+
+        <h3>Rate This Recipe:</h3>
+        <form>
+            <label for="rating">Rating (1 to 5):</label>
+            <input type="number" id="rating" name="rating" min="1" max="5" required>
+            <button type="submit">Submit Rating</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Pink Therapy | Designed with love</p>
+    </footer>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pink Panna Cotta Recipe</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="header">
+        <h1>Pink Panna Cotta Recipe</h1>
+        <p>A creamy Italian dessert with a smooth, pink twist.</p>
+    </header>
+
+    <section class="section recipe-detail">
+        <h2>Ingredients:</h2>
+        <ul>
+            <li>2 cups heavy cream</li>
+            <li>1/2 cup sugar</li>
+            <li>1/4 cup strawberry puree</li>
+            <li>1 tsp vanilla extract</li>
+            <li>1 tbsp gelatin</li>
+        </ul>
+
+        <h2>Instructions:</h2>
+        <p>Heat the cream and sugar until dissolved. Stir in the strawberry puree and vanilla extract. Sprinkle the gelatin over water, dissolve, and mix with the cream mixture. Pour into molds and chill for 4 hours.</p>
+
+        <h3>Rate This Recipe:</h3>
+        <form>
+            <label for="rating">Rating (1 to 5):</label>
+            <input type="number" id="rating" name="rating" min="1" max="5" required>
+            <button type="submit">Submit Rating</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Pink Therapy | Designed with love</p>
+    </footer>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pink Baklava Recipe</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="header">
+        <h1>Pink Baklava Recipe</h1>
+        <p>A sweet, flaky pastry with a pink twist for an extra special touch.</p>
+    </header>
+
+    <section class="section recipe-detail">
+        <h2>Ingredients:</h2>
+        <ul>
+            <li>1 pack phyllo dough</li>
+            <li>1 cup mixed nuts (walnuts, pistachios, almonds)</li>
+            <li>1 cup sugar</li>
+            <li>1/2 cup water</li>
+            <li>1/4 cup rose water</li>
+            <li>1 tbsp pink food coloring</li>
+            <li>1/2 cup melted butter</li>
+        </ul>
+
+        <h2>Instructions:</h2>
+        <p>Preheat the oven to 350°F (175°C). Layer the phyllo dough in a baking pan, brushing each layer with melted butter. Add a layer of finely chopped mixed nuts and continue layering. Cut into diamond shapes. Bake for 30-40 minutes until golden brown. In a saucepan, combine sugar, water, rose water, and pink food coloring, then boil until syrupy. Pour the syrup over the baked baklava. Let it sit for 2 hours before serving.</p>
+
+        <h3>Rate This Recipe:</h3>
+        <form>
+            <label for="rating">Rating (1 to 5):</label>
+            <input type="number" id="rating" name="rating" min="1" max="5" required>
+            <button type="submit">Submit Rating</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Pink Therapy | Designed with love</p>
+    </footer>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pink Chocolate Cake Recipe</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="header">
+        <h1>Pink Chocolate Cake Recipe</h1>
+        <p>Indulge in a rich chocolate cake with a gorgeous pink hue.</p>
+    </header>
+
+    <section class="section recipe-detail">
+        <h2>Ingredients:</h2>
+        <ul>
+            <li>1 1/2 cups flour</li>
+            <li>1 cup sugar</li>
+            <li>1/2 cup cocoa powder</li>
+            <li>1 tsp baking soda</li>
+            <li>1/2 tsp salt</li>
+            <li>1 cup buttermilk</li>
+            <li>1/2 cup vegetable oil</li>
+            <li>2 large eggs</li>
+            <li>1 tsp vanilla extract</li>
+            <li>1/2 tsp pink food coloring</li>
+        </ul>
+
+        <h2>Instructions:</h2>
+        <p>Preheat the oven to 350°F (175°C). In a bowl, mix flour, sugar, cocoa powder, baking soda, and salt. Add buttermilk, vegetable oil, eggs, vanilla extract, and pink food coloring. Mix until smooth. Pour the batter into greased cake pans and bake for 30-35 minutes. Let the cakes cool completely before frosting with your favorite pink frosting.</p>
+
+        <h3>Rate This Recipe:</h3>
+        <form>
+            <label for="rating">Rating (1 to 5):</label>
+            <input type="number" id="rating" name="rating" min="1" max="5" required>
+            <button type="submit">Submit Rating</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Pink Therapy | Designed with love</p>
+    </footer>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Strawberry Brownies Recipe</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="header">
+        <h1>Strawberry Brownies Recipe</h1>
+        <p>Decadent chocolate brownies with a fruity strawberry twist.</p>
+    </header>
+
+    <section class="section recipe-detail">
+        <h2>Ingredients:</h2>
+        <ul>
+            <li>1 cup sugar</li>
+            <li>1/2 cup butter</li>
+            <li>2 eggs</li>
+            <li>1 tsp vanilla extract</li>
+            <li>1/3 cup cocoa powder</li>
+            <li>1/2 cup flour</li>
+            <li>1/2 tsp baking powder</li>
+            <li>1/4 tsp salt</li>
+            <li>1/2 cup strawberry puree</li>
+            <li>1/4 cup strawberry jam</li>
+        </ul>
+
+        <h2>Instructions:</h2>
+        <p>Preheat the oven to 350°F (175°C). Melt the butter and sugar together, then add the eggs and vanilla extract. Stir in the cocoa powder, flour, baking powder, and salt. Fold in the strawberry puree and jam. Pour the batter into a greased baking pan and bake for 20-25 minutes. Allow to cool before slicing into squares.</p>
+
+        <h3>Rate This Recipe:</h3>
+        <form>
+            <label for="rating">Rating (1 to 5):</label>
+            <input type="number" id="rating" name="rating" min="1" max="5" required>
+            <button type="submit">Submit Rating</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Pink Therapy | Designed with love</p>
+    </footer>
+</body>
+</html>
